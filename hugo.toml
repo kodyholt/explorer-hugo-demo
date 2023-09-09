@@ -52,7 +52,7 @@ theme = 'hero-explorer-hugo'
     
 
 [params.profile]
-    avatar = '/img/Compass-Rose-BW.svg'
+    avatar = 'img/Compass-Rose-BW.svg'
     head = 'A Soccer Directory'
     body = 'test'
     
