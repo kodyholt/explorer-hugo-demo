@@ -1,0 +1,65 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'hero-explorer-hugo'
+
+[params]
+    iconfont = '//at.alicdn.com/t/font_2881911_o39brzj1llb.css'
+    
+    
+    
+    [params.widgets]
+    home = [
+        "section",
+         
+      
+        
+        
+        
+    ]
+    section = [
+        "section"
+        
+    ]
+    single = [
+        "section"
+    ]
+    term = [ "section"]
+    terms = [
+        "section"
+    ]
+
+[params.blocks]
+    home = ["profile", "markdown" ]
+    section = [
+    	"markdown","folder"
+    	]
+    single = [
+        "markdown"
+    ]
+    term = [ 
+    "folder"
+   ]
+    terms = [ "terms"
+    ]
+
+[params.welcome]
+    head = 'welcome'
+    body = 'hugo hero '
+    
+[params.single]
+   body = "Posts"
+    
+
+[params.profile]
+    avatar = '/img/Compass-Rose-BW.svg'
+    head = 'A Soccer Directory'
+    body = 'test'
+    
+    [[params.profile.links]]
+        url = 'tags'
+        text = 'tags'
+    [[params.profile.links]]
+        url = 'categories'
+        text = 'categories'
+    

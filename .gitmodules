@@ -1,0 +1,6 @@
+[submodule "hero-explorer-hugo"]
+	path = hero-explorer-hugo
+	url = https://github.com/kodyholt/hero-explorer-hugo.git
+[submodule "themes/hero-explorer-hugo"]
+	path = themes/hero-explorer-hugo
+	url = https://github.com/kodyholt/hero-explorer-hugo.git
