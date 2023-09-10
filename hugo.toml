@@ -53,8 +53,8 @@ theme = 'hero-explorer-hugo'
 
 [params.profile]
     avatar = 'img/Compass-Rose-BW.svg'
-    head = 'A Soccer Directory'
-    body = 'test'
+    head = 'A Responsive File Manager Based Hugo Theme'
+    
     
     [[params.profile.links]]
         url = 'tags'
